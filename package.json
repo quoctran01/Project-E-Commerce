@@ -1,0 +1,43 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quoctran01/E-Commerce-.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "quoctk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quoctran01/Project-E-Commerce/issues"
+  },
+  "homepage": "https://github.com/quoctran01/Project-E-Commerce#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.21",
+    "validator": "^13.9.0",
+    "xss-clean": "^0.1.1"
+  }
+}
